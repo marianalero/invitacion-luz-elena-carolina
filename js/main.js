@@ -327,6 +327,7 @@
 		var confirmText = "";
 		var selNumInv = number;
 		var radioValue = $("input[name='confirm']:checked").val();
+		var message = "Hola,"
 		if(radioValue == "confirm"){
 			var numbertext;
 			if(parseInt(number) > 1){
