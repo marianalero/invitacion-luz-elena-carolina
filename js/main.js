@@ -323,9 +323,6 @@
 		var telefono = document.getElementById("telefono").value
 		var number = document.getElementById("numInv").innerHTML;
 		number = number.substring(30,32);
-		// number = number.slice(-6);
-		var confirmText = "";
-		var selNumInv = number;
 		var radioValue = $("input[name='confirm']:checked").val();
 		var message = "Hola,"
 		if(radioValue == "confirm"){
